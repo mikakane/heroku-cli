@@ -1,0 +1,19 @@
+{
+  "name": "heroku-util",
+  "version": "1.0.0",
+  "description": "basic example heroku plugin",
+  "main": "index.js",
+  "author": "mikakane @mkkn_info",
+  "repository": "mikakane/heroku-util",
+  "bugs": {
+    "url": "https://github.com/mikakane/heroku-util"
+  },
+  "keywords": [
+    "heroku-plugin"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "heroku-cli-util": "^6.0.11"
+  }
+}

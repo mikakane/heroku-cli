@@ -2,6 +2,6 @@
 
 ## Commands 
 
-chatbox:open : open dashboard
-chatbox:jdbc : get jdbc url from DATABASE_URL
+- chatbox:open : open dashboard
+- chatbox:jdbc : get jdbc url from DATABASE_URL
 

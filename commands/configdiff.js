@@ -8,8 +8,7 @@ function* app (context, heroku) {
     // app:    heroku.get(`/apps/${context.app}`),
     // config: heroku.get(`/apps/${context.app}/config-vars`),
     // }
-    console.log(context.args.user);
-    const apps = context.args.user.split("...")
+    const apps = context.args.apps.split("...")
     let appInfo = {};
     let columns = [{
         key: "key"
@@ -52,7 +51,7 @@ module.exports = {
   command: 'configdiff',
   description: 'config sync with .env on surround with SYNCWITHHEROKU',
   help: '',
-  args: [ {name: 'user'} ],
+  args: [ {name: 'apps'} ],
   // needsApp: true,
   needsAuth: true,
   run: cli.command(co.wrap(app))

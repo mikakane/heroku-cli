@@ -29,7 +29,7 @@ function* app (context, heroku) {
             keys.add(key)
         })
     }
-g
+
     let rows = [];
     keys.forEach((key)=>{
         let row = {key}

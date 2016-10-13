@@ -8,4 +8,6 @@ exports.topic = {
 exports.commands = [
 	require("./commands/open.js"),
 	require("./commands/jdbc.js"),
+	require("./commands/configsync.js"),
+	require("./commands/configdiff.js"),
 ]

@@ -6,6 +6,7 @@ exports.topic = {
 }
 
 exports.commands = [
+	require("./commands/init.js"),
 	require("./commands/open.js"),
 	require("./commands/jdbc.js"),
 	require("./commands/configsync.js"),

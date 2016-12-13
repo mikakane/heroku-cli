@@ -1,5 +1,15 @@
 # Heroku Util
 
+## Usage 
+
+````
+$ git clone https://github.com/mikakane/heroku-cli
+$ cd heroku-cli
+$ npm i 
+$ heroku plugins:link .
+
+````
+
 ## 実装済
 
 - chatbox:open : open dashboard

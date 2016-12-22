@@ -1,6 +1,5 @@
 {
   "name": "heroku-util",
-  "version": "1.0.2",
   "description": "basic example heroku plugin",
   "main": "index.js",
   "author": "mikakane @_mikakane",

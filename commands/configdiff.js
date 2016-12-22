@@ -47,7 +47,7 @@ function* app (context, heroku) {
 }
 
 module.exports = {
-  topic: 'chatbox',
+  topic: 'cb',
   command: 'configdiff',
   description: 'config sync with .env on surround with SYNCWITHHEROKU',
   help: '',

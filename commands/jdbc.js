@@ -20,7 +20,7 @@ function* app (context, heroku) {
 }
 
 module.exports = {
-  topic: 'chatbox',
+  topic: 'cb',
   command: 'jdbc',
   description: 'get jdbc config param',
   help: 'help text for hello:world',

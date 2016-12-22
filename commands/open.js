@@ -1,9 +1,9 @@
 let cli = require('heroku-cli-util')
 
 module.exports = {
-  topic: 'chatbox',
+  topic: 'cb',
   command: 'open',
-  description: 'says hello',
+  description: 'open heroku dashboard',
   help: 'help text for hello:world',
   needsApp: true,
   run: function (context) {

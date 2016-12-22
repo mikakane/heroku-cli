@@ -2,7 +2,7 @@ let cli = require('heroku-cli-util')
 var fs = require('fs');
 
 module.exports = {
-  topic: 'chatbox',
+  topic: 'cb',
   command: 'init',
   description: 'create Procfile',
   help: 'help text for hello:world',

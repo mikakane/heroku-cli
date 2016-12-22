@@ -1,10 +1,10 @@
 {
   "name": "heroku-util",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "basic example heroku plugin",
   "main": "index.js",
   "author": "mikakane @_mikakane",
-  "repository": "mikakane/heroku-li",
+  "repository": "mikakane/heroku-cli",
   "bugs": {
     "url": "https://github.com/mikakane/heroku-cli"
   },
